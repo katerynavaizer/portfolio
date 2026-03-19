@@ -19,7 +19,6 @@ function Skills() {
       <h2 className="skills-title">Technical Skills</h2>
 
       <div className="skills-grid">
-        {/* Card 1 */}
         <div className="skill-card">
           <h3 className="skill-category-title">Languages</h3>
           <div className="skill-items">
@@ -35,7 +34,6 @@ function Skills() {
           </div>
         </div>
 
-        {/* Card 2 */}
         <div className="skill-card">
           <h3 className="skill-category-title">Frameworks & Libraries</h3>
           <div className="skill-items">
@@ -51,7 +49,6 @@ function Skills() {
           </div>
         </div>
 
-        {/* Card 3 */}
         <div className="skill-card">
           <h3 className="skill-category-title">Tools & Concepts</h3>
           <div className="skill-items">
@@ -67,9 +64,6 @@ function Skills() {
             </span>
             <span className="skill-item">
               <FaSync className="skill-icon" color="#4a5568" /> Agile
-            </span>
-            <span className="skill-item">
-              <FaUsers className="skill-icon" color="#4a5568" /> Mentorship
             </span>
           </div>
         </div>

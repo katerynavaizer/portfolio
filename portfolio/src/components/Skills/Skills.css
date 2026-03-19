@@ -1,7 +1,6 @@
 .skills-container {
-  padding: 4rem 10%;
+  padding: 2rem 10%;
   text-align: left;
-  scroll-margin-top: 6rem;
 }
 
 .skills-title {
@@ -11,43 +10,44 @@
   margin-bottom: 2.5rem;
 }
 
-/* Creates a responsive grid for the square cards */
 .skills-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 280px));
+  gap: 1.5rem;
 }
 
-/* The Square Card Design */
 .skill-card {
   background-color: #ffffff;
   border: 1px solid #e2e8f0;
-  border-radius: 16px; /* Smooth rounded corners */
-  padding: 2.5rem 2rem;
-  
-  /* Creates a distinct box shape */
+  border-radius: 12px;
+  padding: 1.5rem;
+
   display: flex;
   flex-direction: column;
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow:
+    0 4px 6px -1px rgba(0, 0, 0, 0.05),
+    0 2px 4px -1px rgba(0, 0, 0, 0.03);
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
 }
 
-/* Lifts the square up when hovered */
 .skill-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  box-shadow:
+    0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
 }
 
 .skill-category-title {
-  font-size: 1.25rem;
+  font-size: 1.15rem;
   color: #1a202c;
   font-weight: 600;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
   border-bottom: 2px solid #edf2f7;
-  padding-bottom: 0.75rem;
+  padding-bottom: 0.5rem;
 }
 
-/* Stacks the skills cleanly inside the square */
 .skill-items {
   display: flex;
   flex-direction: column;

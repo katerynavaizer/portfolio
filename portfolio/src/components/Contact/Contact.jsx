@@ -6,9 +6,9 @@ function Contact() {
       <h2 className="contact-title">Let's Connect</h2>
 
       <div className="contact-links">
-        <a href="mailto:kateryna.vaizer@gmail.com" className="contact-link">
+        {/* <a href="mailto:kateryna.vaizer@gmail.com" className="contact-link">
           Email Me
-        </a>
+        </a> */}
         <a
           href="https://linkedin.com/in/vaizer"
           target="_blank"

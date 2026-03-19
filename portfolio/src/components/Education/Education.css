@@ -1,0 +1,77 @@
+.education-container {
+  padding: 2rem 10% 4rem 10%;
+  scroll-margin-top: 6rem;
+}
+
+.education-title {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #4a5568;
+  margin-bottom: 2.5rem;
+}
+
+.education-list {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem; 
+}
+
+.education-item {
+  border-left: 2px solid #2b6cb0;
+  padding-left: 1.5rem;
+}
+
+.education-degree {
+  font-size: 1.25rem;
+  color: #1a202c;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+.education-sub-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
+  flex-wrap: wrap;
+}
+
+.education-school {
+  color: #2b6cb0;
+  font-weight: 600;
+}
+
+.education-grade {
+  font-weight: 600;
+  color: #4a5568;
+  font-size: 0.9rem;
+  margin-bottom: 0.75rem;
+}
+
+.education-description {
+  list-style: none;
+  color: #4a5568;
+  line-height: 1.5;
+  font-size: 0.95rem;
+}
+
+.education-description li {
+  margin-bottom: 0.4rem;
+  position: relative;
+  padding-left: 1.2rem;
+}
+
+.education-description li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #2b6cb0;
+}
+
+.education-highlights {
+  color: #718096;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  font-style: italic;
+}

@@ -4,13 +4,21 @@ function Header() {
   return (
     <header className="header-container">
       <div className="header-logo">
-        {/* Clicking your name scrolls to the top */}
         <a href="#top">&gt; Kateryna Vaizer</a>
       </div>
       <nav className="header-nav">
         <ul className="header-nav__list">
           <li>
-            {/* Standard anchor links for smooth scrolling */}
+            <a href="#experience" className="header-nav__link">
+              Experience
+            </a>
+          </li>
+          <li>
+            <a href="#education" className="header-nav__link">
+              Education
+            </a>
+          </li>
+          <li>
             <a href="#projects" className="header-nav__link">
               Projects
             </a>

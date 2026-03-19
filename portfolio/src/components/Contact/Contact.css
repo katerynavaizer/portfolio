@@ -1,6 +1,4 @@
 .contact-container {
-  /* text-align: left;
-  padding: 3rem 10%; */
   text-align: center;
   padding: 3rem 2rem;
   margin-top: 2rem;
@@ -20,15 +18,12 @@
   gap: 1rem;
 }
 .contact-link {
-  /* No padding, borders, or backgrounds! */
   text-decoration: none;
   font-weight: 500;
   font-size: 1rem;
 
-  /* The Simple Grey Color */
   color: #718096;
 
-  /* Clean transition for color changes */
   transition: color 0.2s ease;
   position: relative;
 }
