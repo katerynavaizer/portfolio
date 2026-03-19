@@ -3,13 +3,13 @@ import "./Overview.css";
 function Overview() {
   return (
     <section className="overview-container">
-      {/* <h1 className="overview-name">&gt; Kateryna Vaizer</h1> */}
-      <h2 className="overview-title">Full-Stack Software Developer</h2>
+      <h2 className="overview-title">Full-Stack Software Engineer</h2>
 
       <p className="overview-intro">
-        I build clean, scalable web applications. Combining enterprise-level
-        logic with modern frontend development to create seamless user
-        experiences.
+        Full-Stack Software Engineer with a BTech in Software Development.
+        Coming from a senior consulting background, I bring a strong
+        understanding of system architecture to my current focus on React,
+        Node.js, and API integrations.
       </p>
     </section>
   );

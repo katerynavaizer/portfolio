@@ -1,58 +1,16 @@
 .overview-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  min-height: 50vh;
-  padding: 2rem;
-  margin-top: 4rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* text-align: center; */
+  min-height: 30vh;
+  padding: 2rem 10%;
+  margin-top: 2rem;
 }
-/* .overview-name {
-  1. Make it look like code
-  font-family: "Courier New", Courier, monospace;
-  color: #2b6cb0; 
-  font-size: 3.5rem;
-  font-weight: 800;
-  margin: 0 auto 0.5rem auto; 
-
-  overflow: hidden; 
-  white-space: nowrap; 
-  border-right: 4px solid #2b6cb0; Creates the blinking cursor
-
-  3. The Math: "> Kateryna Vaizer" is exactly 17 characters long
-  width: 17ch;
-
-  4. Trigger the animations
-  animation:
-    typing 2s steps(17, end),
-    blink 0.8s step-end infinite;
-} 
-
-@keyframes typing {
-  from {
-    width: 0;
-  }
-}
-
-
-@keyframes blink {
-  from,
-  to {
-    border-color: transparent;
-  }
-  50% {
-    border-color: #2b6cb0;
-  }
-}  */
-
-/* .overview-name {
-  font-size: 3.5rem;
-  font-weight: 800;
-  color: #1a202c;
-  margin-bottom: 0.5rem;
-  letter-spacing: -1px;
-} */
 
 .overview-title {
   font-size: 1.5rem;

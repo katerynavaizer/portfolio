@@ -3,26 +3,25 @@ import "./Contact.css";
 function Contact() {
   return (
     <section className="contact-container" id="contact">
-      <h2>Let's Connect</h2>
-      <p>I am currently open to new full-stack development opportunities.</p>
+      <h2 className="contact-title">Let's Connect</h2>
 
       <div className="contact-links">
-        <a href="mailto:kateryna.vaizer@gmail.com" className="contact-btn">
+        <a href="mailto:kateryna.vaizer@gmail.com" className="contact-link">
           Email Me
         </a>
         <a
-          href="https://linkedin.com/in/yourusername"
+          href="https://linkedin.com/in/vaizer"
           target="_blank"
           rel="noreferrer"
-          className="contact-btn outline"
+          className="contact-link"
         >
           LinkedIn
         </a>
         <a
-          href="https://github.com/yourusername"
+          href="https://github.com/katerynavaizer"
           target="_blank"
           rel="noreferrer"
-          className="contact-btn outline"
+          className="contact-link"
         >
           GitHub
         </a>
